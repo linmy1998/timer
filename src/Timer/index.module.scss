@@ -1,0 +1,30 @@
+.container {
+  height: calc(100vh - 100px);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  div {
+    width: 200px;
+    height: 200px;
+    margin-right: 20px;
+    background-color: #fff;
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 120px;
+    font-weight: bold;
+  }
+}
+
+.button_group{
+  width: 200px;
+  margin: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+
+// .itemdiv {
+//   width: 200px;
+//   height: 200px;
+// }
